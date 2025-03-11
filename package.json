@@ -1,0 +1,16 @@
+{
+  "name": "remainder",
+  "version": "0.0.0",
+  "description": "we are creating a remainder API",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/ index.ts",
+     "run-remainder": "npx ts-node rem/remainder.ts"
+  },
+  "author": "PAVAN",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
