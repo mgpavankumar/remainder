@@ -1,16 +1,25 @@
 {
   "name": "remainder",
   "version": "0.0.0",
-  "description": "we are creating a remainder API",
-  "main": "index.js",
+  "description": "In-memory reminder manager with validated TypeScript models",
   "scripts": {
-    "start": "npx ts-node src/ index.ts",
-     "run-remainder": "npx ts-node rem/remainder.ts"
+    "start": "node --import tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "run-remainder": "tsx src/index.ts"
   },
-  "author": "PAVAN",
+  "author": "M. G. Pavan Kumar",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.10",
-    "typescript": "^5.8.2"
+    "typescript": "5.8.2",
+    "tsx": "4.20.6"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
   }
 }
