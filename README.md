@@ -1,6 +1,6 @@
 # Reminder Manager · TypeScript
 
-[![CI](https://github.com/mgpavankumar/remainder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mgpavankumar/remainder/actions/workflows/ci.yml)
+[![CI](https://github.com/mgpavankumar/reminder-manager/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mgpavankumar/reminder-manager/actions/workflows/ci.yml)
 
 An in-memory reminder manager with typed records and a separate demonstration entry point.
 
@@ -18,8 +18,8 @@ An in-memory reminder manager with typed records and a separate demonstration en
 Install Node.js 22 or newer and npm. Clone this repository:
 
 ```bash
-git clone https://github.com/mgpavankumar/remainder.git
-cd remainder
+git clone https://github.com/mgpavankumar/reminder-manager.git
+cd reminder-manager
 ```
 
 ```bash
