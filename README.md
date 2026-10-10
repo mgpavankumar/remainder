@@ -1,5 +1,7 @@
 # Reminder Manager · TypeScript
 
+[![CI](https://github.com/mgpavankumar/remainder/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/mgpavankumar/remainder/actions/workflows/ci.yml)
+
 An in-memory reminder manager with typed records and a separate demonstration entry point.
 
 **Author:** [M. G. Pavan Kumar](https://github.com/mgpavankumar)
@@ -52,6 +54,10 @@ See [TEST_RESULTS.md](TEST_RESULTS.md) for recorded local verification and its l
 ## Current behavior and limitations
 
 Records are held in memory and disappear when the process stops.
+
+## Demonstration
+
+`npm start` creates two synthetic reminders with IDs `1` and `2`, lists them, retrieves `1`, and deletes it. The final list contains only reminder `2`. The reusable class is [ReminderDatabase](src/remainder.ts).
 
 ## Contributing
 
